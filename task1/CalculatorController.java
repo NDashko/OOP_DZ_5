@@ -33,7 +33,7 @@ public class CalculatorController {
                     result = model.divide(inputValueOne(), inputValueTwo());
                     break;
                 default:
-                    view.printError("Введен неверный оператор!");
+                    view.printError("Введено неверное действие.");
                     return;
             }
             view.printResult(result);
